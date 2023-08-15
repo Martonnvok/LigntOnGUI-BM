@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-08-12T09:37:42.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cxs7bBMQDmVs4KzaJL7k" version="21.6.7" type="device">
+  <diagram name="1 oldal" id="p4MiF6thncUz1EOegeBA">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pi1ieXMbEHkmX37k3cru-1" value="Lighton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="276" height="508" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-2" value="-gombLista: list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="30" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-7" value="-gombRacs [][]:&amp;nbsp;JButton" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="56" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-6" value="-lepesek, ujJatek, osszLepes, nev: jLabel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="82" width="276" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-5" value="-kLepesek, kujJatek, kosszLepes:int&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="110" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="140" width="276" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-11" value="+constructor()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="148" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-14" value="-vegeredmeny(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="174" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-13" value="-lepesek(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="200" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-12" value="-osszLepes(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="226" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-4" value="-jatekInditasa(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="252" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-10" value="-amigVanNulla(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="278" width="276" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-9" value="-ujKorok(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="306" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-8" value="-randomLampak(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="332" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-19" value="- kapcsolas(evt:ActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="358" width="276" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-18" value="-szomszedok(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="386" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-17" value="-frissitSzomszedok(kivalasztottGomb: ActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="412" width="276" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-16" value="-setIconimage(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="456" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pi1ieXMbEHkmX37k3cru-15" value="-jatekosNev(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=15;fontFamily=Times New Roman;" vertex="1" parent="pi1ieXMbEHkmX37k3cru-1">
+          <mxGeometry y="482" width="276" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
